@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+    
+    background: linear-gradient(-45deg,  #15ad15, #00FFFF, #02cbfd, #5d9bf7, #6868ff, #9c56f8, #ff05ff );
+	
+	background-size: 1000% 1000%;
+	animation: gradient 20s ease infinite;
+}
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns:1fr 10fr 1fr;
+    grid-template-rows: 5fr 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 3; 
+    
+    }
+    .div2 { grid-area: 3 / 2 / 4 / 3; 
+      
+    }
+
+    #welcome{       
+        text-align: center;
+        font-family:  'Syne Mono', monospace;
+        font-size:52px;
+        color: black;
+        -webkit-text-fill-color:rgb(248, 0, 0); /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+    }
+    #btn1{
+        height: 100px;
+        width: 250px;
+       /* background: linear-gradient(to right, #073d13, #0b9617, #34f85f9d);*/
+        background: linear-gradient(-45deg, #2bff00, #099902, #63f700 );
+        background-size: 400% 400%;
+	    animation: gradient 3s ease infinite;
+        border-radius: 45px;
+        border: none;
+
+    }
+    #btn1:active{
+        border: 3px black solid;
+    }
+    #btn1:focus{
+        outline:none  !important;
+    }   
+    
+
+
+    .divbut1{
+        height: 102px;
+        width: 252px;
+        margin-right:auto;
+        margin-left: auto;
+    }
+
+    .divbut2{
+        height: 100px;
+        width: 250px;
+        margin-right:auto;
+        margin-left: auto;
+    }

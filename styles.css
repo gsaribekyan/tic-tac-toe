@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+body{
+    background-color: rgb(231, 246, 255);
+}
+.himnakan{
+    height: 690px;
+    width: 505px;  
+   
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    
+    margin: 0;
+    }
+    
+
+    #div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9{
+        border: 5px rgb(45, 30, 255) solid;
+        border-radius: 50%;
+        margin: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    #d0,#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8{
+        margin: 0px;
+        padding: 0; 
+        font-size: 121px;
+        text-align: center; 
+        font-family:'Syne Tactile', cursive;    
+    }
+    
+    #btn{
+        height:60px;
+        width: 120px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 116, 21);
+        border-radius: 45px;
+        border: 1px rgb(0, 0, 0) solid;
+        font-family: 'Syne Tactile', cursive;
+        font-size: 19px;
+       /* margin:0 50%;position:relative;
+        margin-top: 50px;*/
+        
+    }  
+
+    #btn:hover{
+        background-color: rgba(3, 126, 21, 0.849);
+    }
+    #btn:active{
+        
+        color:rgb(21, 150, 75) ;
+        background-color:rgb(180, 245, 164);
+        border: 3px black solid;
+       
+        
+         
+    }
+    #btn:focus{
+        outline:none  !important;
+    }
+    .button{
+        height:60px;
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+
+    #div1 { grid-area: 1 / 1 / 2 / 2; 
+        
+    }
+
+    #div2 { grid-area: 1 / 2 / 2 / 3;
+        
+    }
+
+    #div3 { grid-area: 1 / 3 / 2 / 4;
+     
+    }
+
+    #div4 { grid-area: 2 / 3 / 3 / 4;
+
+    }
+
+    #div5 { grid-area: 2 / 2 / 3 / 3;
+    
+    }
+
+    #div6 { grid-area: 2 / 1 / 3 / 2; 
+    
+    }
+
+    #div7 { grid-area: 3 / 1 / 4 / 2;
+    
+    }
+
+    #div8 { grid-area: 3 / 2 / 4 / 3; 
+    
+    }
+
+    #div9 { grid-area: 3 / 3 / 4 / 4;
+       
+    }
+
+
+
+    .parent4 {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 60px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
+        
+        .hashivX { grid-area: 2 / 2 / 3 / 3; 
+        /*background-color: rgb(255, 255, 255);*/
+        text-overflow: ellipsis; 
+        overflow: hidden; 
+        white-space: nowrap;
+        }
+        .xoro{ grid-area: 2 / 3 / 3 / 4; 
+        
+        }
+
+        .hashivY { grid-area: 2 / 4 / 3 / 5; 
+       /* background-color: rgb(255, 255, 255);*/
+        }
+
+
+
+
+
+

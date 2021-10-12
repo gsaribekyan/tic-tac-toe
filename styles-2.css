@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+body{
+    background-color: rgb(147, 253, 253);
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr repeat(2, 10fr) 5fr repeat(2, 10fr) 5fr 10fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 3 / 3; 
+        background: linear-gradient(to right, #16a51e,  #19ff25,  #88f88e);
+        border-radius: 45px 45px 0px 0px;
+    }
+
+    .div2 { grid-area: 3 / 2 / 4 / 3; 
+        background: linear-gradient(to right, #16a51e,  #19ff25,  #88f88e);
+        border-radius:0px 0px 45px 45px;
+    }
+
+    .div3 { grid-area: 5 / 2 / 6 / 3; 
+        background: linear-gradient(to right, #e22d2d, #ff6804, #eeff00);
+        border-radius: 45px 45px 0px 0px;
+    
+    }
+
+    .div4 { grid-area: 6 / 2 / 7 / 3; 
+        background: linear-gradient(to right, #e22d2d, #ff6804, #eeff00);
+        border-radius:0px 0px 45px 45px;
+    }
+
+    .div5 { grid-area: 8 / 2 / 9 / 3; 
+        padding:20px 110px ;
+    }
+
+    #player{
+        color: aqua;
+        font-size: 60px;
+        font-family:  'Syne Mono', monospace;
+        margin: 0;
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+        -webkit-text-fill-color:#0077ff; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        
+    }
+    #anun1, #anun2{
+        height: 50px;
+        width: 300px;
+        font-family:  'Syne Mono', monospace;
+        font-size: 40px;
+        border-radius:10px;
+        border: none;
+    }
+
+    
+    
+    
+
+    #anun2:focus{
+        outline:none  !important;
+        border: 2px blue solid;
+    }
+
+    #anun1:focus{
+        outline:none  !important;
+        border: 2px rgb(0, 162, 255) solid;
+    }
+
+
+    .div2, .div4{
+        padding: 10px 55px;
+    }
+
+    .btn5{
+        height: 90px;
+        width: 240px;
+        font-size: 35px; 
+        border: none;
+        background: linear-gradient(to right, #632de2, #b004ff, #e752e7);
+        border-radius: 45px;
+    }
+    
+    .btn5:active{
+      border: 3px black solid;
+    }
+    .btn5:focus{
+        outline: none;
+    }
